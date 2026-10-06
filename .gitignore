@@ -8,4 +8,4 @@ coverage/
 .env*
 !.env.example
 .DS_Store
-misc.xml
+project_sea_radar.iml
