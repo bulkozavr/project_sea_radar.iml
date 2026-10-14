@@ -4,7 +4,10 @@ node_modules/
 out/
 dist/
 coverage/
+test-results/
+playwright-report/
 *.log
+.env.local
 .env*
 !.env.example
 .DS_Store
