@@ -1,4 +1,6 @@
 export const DEMO_TICK_MS = 2000;
+export const SNAPSHOT_WINDOW_MS = 15_000;
+export const SNAPSHOT_VESSEL_LIMIT = 100;
 
 export type Vessel = {
   id: string;

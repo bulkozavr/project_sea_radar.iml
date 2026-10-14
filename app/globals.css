@@ -30,11 +30,58 @@ body {
 }
 
 .map-source {
-  width: 220px;
+  width: 280px;
   margin: 0;
   padding: 16px;
   border-left: 1px solid #d1d5db;
   font-size: 14px;
+  overflow-y: auto;
+}
+
+.map-source button {
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 4px;
+  background: #1d4ed8;
+  color: white;
+  cursor: pointer;
+}
+
+.map-source button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.source-label,
+.source-message {
+  margin: 12px 0 0;
+  line-height: 1.45;
+}
+
+.source-message {
+  color: #b91c1c;
+}
+
+.vessel-card {
+  margin-top: 16px;
+}
+
+.vessel-card h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.vessel-card dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 10px;
+  margin: 0;
+}
+
+.vessel-card dd {
+  margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .vessel-marker {
